@@ -12,16 +12,6 @@ serve:
 
 run: serve
 
-up:
-	make linux
-	cd ./deployment ;\
-	cp -rf ./.env.example ./.env ;\
-	docker-compose up -d
-	
-down:
-	cd ./deployment ;\
-	docker-compose down
-
 clean:
 	sudo rm -rf ./cmd/*
 	echo "ok"
