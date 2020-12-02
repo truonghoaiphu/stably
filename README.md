@@ -32,8 +32,10 @@ For linux
 
 ## Example REST URL
 ```
+use Postman
+
 POST http://localhost:8080/find-highest-prime-number
 {
-    "number": 10000
+    "number": 55
 }
 ```
